@@ -1,0 +1,63 @@
+/* INDEX */
+$size_title: 6rem;
+$green1: #015701;
+
+
+@mixin sizes($width, $height) {
+    height: $height;
+    width: $width;
+}
+
+.bodyContainer{
+    padding: 0 8rem 0 8rem;
+}
+
+.mainContainer{
+    background-image: url(../img/bosque-lg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    @include sizes(auto, 65rem);
+    margin-bottom: 7rem;
+}
+
+.textContainer{
+    color: rgb(236, 236, 236);
+    @include sizes(auto, 100%);
+        h1{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        font-size: 10rem;
+        line-height: 14rem;
+        padding-top: 20rem;
+        font-family: Haettenschweiler;
+        }
+        p{
+            text-align: center;
+            font-size: 3rem;
+            font-weight: bolder;
+        }
+        h2{
+            @extend h1;
+            color: $green1;
+            padding-top: 0rem;
+            font-size: 8rem;
+        }
+}
+
+.sectionMedia{
+    line-height: 10rem;
+    p{
+        color: $green1;
+        font-size: 2.5rem;
+        line-height: 1rem;
+    }
+    a{
+        text-decoration: none;
+    }
+}
+
+.iframeVideo{
+    display: flex;
+    flex-wrap: wrap;
+}

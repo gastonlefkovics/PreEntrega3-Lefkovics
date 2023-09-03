@@ -1,0 +1,27 @@
+/* ABOUT US */
+
+.textAboutUs{
+    font-size: 2.5rem;
+    padding: 5rem;
+    text-align: center;
+}
+
+.imgAboutUs{
+    background-image: url(../img/aboutUs2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30rem;
+    margin-bottom: 3rem;
+    line-height: 35rem;
+}
+
+.aboutUsContainer{
+    background-image: url(../img/fotografa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 2rem;
+    height: 65rem;
+    h1{
+        line-height: 20rem;
+    }
+}

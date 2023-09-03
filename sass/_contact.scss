@@ -1,0 +1,48 @@
+/* PÁGINA CONTACTO */
+
+.contactForm{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    padding: 2rem 2rem;
+    margin: 3rem 3rem;
+    background-color: rgb(137, 190, 137);
+    opacity: 0.8;
+    div{
+        p{
+            font-size: 1.8rem;
+            margin-top: 1rem;
+            // margin-bottom: 1rem;
+        }
+    }
+    label{
+        font-size: 2rem;
+    }
+}
+
+.containerForm{
+    background-image: url(../img/bosque-lg-opacidad.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50rem;
+    width: auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.formControl{
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+
+

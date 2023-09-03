@@ -1,0 +1,186 @@
+// MEDIA QUERIES
+
+// 1024px
+@media screen and (max-width:1024px){
+    .iframeVideo{
+        justify-content: center;
+        margin-bottom: 0.5rem;
+    }
+    .galeryContainer{
+        padding: 2rem 8rem 5rem 8rem;
+    }
+    .textAboutUs{
+    padding-top: 0;        
+    }
+}
+
+// 768px
+@media screen and (max-width:768px){
+    .bodyContainer{
+        padding: 0 6rem 0 6rem;
+    }
+    .mainContainer{
+        height: 50rem;
+        margin-bottom: 5rem;
+            h1{
+                line-height: 12rem;
+                font-size: 7rem;
+                padding-top: 13rem;
+            }
+            p{
+                font-size: 2.5rem;
+            }
+    }  
+    .aboutUsContainer{
+        height: 50rem;
+        h1{
+            line-height: 21rem;
+            font-size: 7rem;
+            padding-top: 13rem;
+        }
+    }
+    .sectionMedia{
+        h2{
+            font-size: 5rem;
+            line-height: 10rem;
+        }
+        p{
+            font-size: 2rem;
+        }
+    }
+    .iframeVideo{
+        justify-content: center;
+    }
+    #footer{
+        section{
+            padding: 2rem 1rem;
+        }
+    }
+    .galeryContainer{
+        padding: 2rem 5rem 4rem 5rem;
+    }
+    .contactForm{
+        margin: 2rem 3rem;
+        h1{
+            font-size: 2rem;
+            padding-top: 0;
+            line-height: 3rem;
+        }
+        div{
+            p{
+                font-size: 1.5rem;
+            }
+        }
+        label{
+            font-size: 1.3rem;
+        }
+    }
+    .textAboutUs{
+        font-size: 2.2rem;
+    }
+}
+
+/* 600px */
+@media screen and (max-width:600px){
+    .bodyContainer{
+        padding: 0 5rem 0 5rem;
+    }
+
+    .mainContainer{
+        margin-bottom: 3rem;
+        h1{
+            font-size: 6.5rem;
+        }
+        p{
+            font-size: 2.5rem;
+        }
+    }
+    .aboutUsContainer{
+        height: 45rem;
+        h1{
+            line-height: 15rem;
+            font-size: 6rem;
+        }
+    }
+    .textAboutUs{
+        font-size: 2rem;
+    }
+    .contactForm{
+        margin: 2rem 3rem;
+        h1{
+            font-size: 2.3rem;
+        }
+    }    
+}
+
+// 480px
+@media screen and (max-width:480px){
+    .bodyContainer{
+        padding: 0 3rem 0 3rem;
+    }
+    .mainContainer{
+        height: 48rem;
+        margin-bottom: 2.5rem;
+        h1{
+            font-size: 5rem;
+        }
+        p{
+            font-size: 2rem;
+        }
+    }
+    .aboutUsContainer{
+        height: 36rem;
+        h1{
+            line-height: 5rem;
+        }
+    }
+    .sectionMedia{
+        h2{
+            font-size: 4.5rem;
+            line-height: 9rem;
+        }
+        p{
+            font-size: 1.5rem;
+        }
+    }
+}
+
+// 320px
+@media screen and (max-width:320px){
+    .bodyContainer{
+        padding: 0 1rem 0 1rem;
+    }
+    .mainContainer{
+        margin-bottom: 0rem;
+        h1{
+            font-size: 4rem;
+            line-height: 10rem;
+        }
+    }
+    .sectionMedia{
+        p{
+            font-size: 1.2rem;
+        }
+    }
+    .aboutUsContainer{
+        height: 27rem;
+        margin-bottom: 2rem;
+        h1{
+            font-size: 5rem;
+            line-height: 0rem;
+        }
+    }
+    .textAboutUs{
+        font-size: 1.7rem;
+        padding-bottom: 1rem;
+    }
+    .galeryMain{
+        h1{
+            font-size: 4rem;
+        }
+    }
+}
+
+
+
+

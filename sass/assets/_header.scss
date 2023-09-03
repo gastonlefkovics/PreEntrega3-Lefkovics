@@ -1,0 +1,35 @@
+/* HEADER */
+
+#header{
+    position: sticky;
+    top: 0px;
+    font-size: 1.7rem;
+    z-index: 99;
+        nav{
+            background-color: white;
+            div{
+                a{
+                    color: #0b7630;
+                }
+                div{
+                    ul{
+                        li{
+                            margin-left: 2rem;
+                            &:hover{
+                                transform: scale(1.2);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+}
+
+.logoContainer{
+    height: 9rem;
+    width: 9rem;
+    img{
+        height: 100%;
+        width: 100%;
+    }
+}

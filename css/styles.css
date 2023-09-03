@@ -1,0 +1,411 @@
+@charset "UTF-8";
+/* HEADER */
+#header {
+  position: sticky;
+  top: 0px;
+  font-size: 1.7rem;
+  z-index: 99;
+}
+#header nav {
+  background-color: white;
+}
+#header nav div a {
+  color: #000000;
+}
+#header nav div div ul li {
+  margin-left: 2rem;
+}
+#header nav div div ul li:hover {
+  transform: scale(1.2);
+}
+
+.logoContainer {
+  height: 9rem;
+  width: 9rem;
+}
+.logoContainer img {
+  height: 100%;
+  width: 100%;
+}
+
+/* INDEX */
+.bodyContainer {
+  padding: 0 8rem 0 8rem;
+}
+
+.mainContainer {
+  background-image: url(../img/bosque-lg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 65rem;
+  width: auto;
+  margin-bottom: 7rem;
+}
+
+.textContainer {
+  color: rgb(236, 236, 236);
+  height: 100%;
+  width: auto;
+}
+.textContainer h1, .textContainer h2 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 10rem;
+  line-height: 14rem;
+  padding-top: 20rem;
+  font-family: Haettenschweiler;
+}
+.textContainer p {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bolder;
+}
+.textContainer h2 {
+  color: #574401;
+  padding-top: 0rem;
+  font-size: 8rem;
+}
+
+.sectionMedia {
+  line-height: 10rem;
+}
+.sectionMedia p {
+  color: #574101;
+  font-size: 2.5rem;
+  line-height: 1rem;
+}
+.sectionMedia a {
+  text-decoration: none;
+}
+
+.iframeVideo {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* ABOUT US */
+.textAboutUs {
+  font-size: 2.5rem;
+  padding: 5rem;
+  text-align: center;
+}
+
+.imgAboutUs {
+  background-image: url(../img/aboutUs2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30rem;
+  margin-bottom: 3rem;
+  line-height: 35rem;
+}
+
+.aboutUsContainer {
+  background-image: url(../img/fotografa.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 2rem;
+  height: 65rem;
+}
+.aboutUsContainer h1 {
+  line-height: 20rem;
+}
+
+/*GALERY*/
+.galeryContainer {
+  padding: 2rem 8rem 8rem 8rem;
+}
+
+.galeryMain h1 {
+  text-align: center;
+  color: #76480b;
+  font-family: Haettenschweiler;
+  font-size: 5rem;
+}
+
+.photoContainer div {
+  padding-bottom: 2rem;
+}
+
+/* PÁGINA CONTACTO */
+.contactForm {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  padding: 2rem 2rem;
+  margin: 3rem 3rem;
+  background-color: rgb(190, 156, 137);
+  opacity: 0.8;
+}
+.contactForm div p {
+  font-size: 1.8rem;
+  margin-top: 1rem;
+}
+.contactForm label {
+  font-size: 2rem;
+}
+
+.containerForm {
+  background-image: url(../img/bosque-lg-opacidad.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50rem;
+  width: auto;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.formControl {
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 400;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+/* FOOTER */
+#footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  z-index: 99;
+  border-top: 2px solid rgb(128, 96, 0);
+}
+#footer section {
+  height: fit-content;
+  width: 100%;
+  padding-top: 2rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+#footer section p {
+  margin-bottom: 3rem;
+  font-size: 1.4rem;
+  color: #573f01;
+}
+
+.followUsContainer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.followUsContainer h3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #573f01;
+}
+
+.socialContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  width: auto;
+}
+.socialContainer a {
+  height: 100%;
+  width: 40px;
+  background-image: url(../img/IG.png);
+  background-size: 80%;
+  background-position: center;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  background-repeat: no-repeat;
+}
+.socialContainer a:hover {
+  transform: scale(1.2);
+}
+
+footer .socialLink:nth-of-type(2) {
+  background-image: url(../img/YT.png);
+  background-size: 80%;
+}
+footer .socialLink:nth-of-type(2):hover {
+  transform: scale(1.2);
+}
+
+@media screen and (max-width: 1024px) {
+  .iframeVideo {
+    justify-content: center;
+    margin-bottom: 0.5rem;
+  }
+  .galeryContainer {
+    padding: 2rem 8rem 5rem 8rem;
+  }
+  .textAboutUs {
+    padding-top: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .bodyContainer {
+    padding: 0 6rem 0 6rem;
+  }
+  .mainContainer {
+    height: 50rem;
+    margin-bottom: 5rem;
+  }
+  .mainContainer h1 {
+    line-height: 12rem;
+    font-size: 7rem;
+    padding-top: 13rem;
+  }
+  .mainContainer p {
+    font-size: 2.5rem;
+  }
+  .aboutUsContainer {
+    height: 50rem;
+  }
+  .aboutUsContainer h1 {
+    line-height: 21rem;
+    font-size: 7rem;
+    padding-top: 13rem;
+  }
+  .sectionMedia h2 {
+    font-size: 5rem;
+    line-height: 10rem;
+  }
+  .sectionMedia p {
+    font-size: 2rem;
+  }
+  .iframeVideo {
+    justify-content: center;
+  }
+  #footer section {
+    padding: 2rem 1rem;
+  }
+  .galeryContainer {
+    padding: 2rem 5rem 4rem 5rem;
+  }
+  .contactForm {
+    margin: 2rem 3rem;
+  }
+  .contactForm h1 {
+    font-size: 2rem;
+    padding-top: 0;
+    line-height: 3rem;
+  }
+  .contactForm div p {
+    font-size: 1.5rem;
+  }
+  .contactForm label {
+    font-size: 1.3rem;
+  }
+  .textAboutUs {
+    font-size: 2.2rem;
+  }
+}
+/* 600px */
+@media screen and (max-width: 600px) {
+  .bodyContainer {
+    padding: 0 5rem 0 5rem;
+  }
+  .mainContainer {
+    margin-bottom: 3rem;
+  }
+  .mainContainer h1 {
+    font-size: 6.5rem;
+  }
+  .mainContainer p {
+    font-size: 2.5rem;
+  }
+  .aboutUsContainer {
+    height: 45rem;
+  }
+  .aboutUsContainer h1 {
+    line-height: 15rem;
+    font-size: 6rem;
+  }
+  .textAboutUs {
+    font-size: 2rem;
+  }
+  .contactForm {
+    margin: 2rem 3rem;
+  }
+  .contactForm h1 {
+    font-size: 2.3rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .bodyContainer {
+    padding: 0 3rem 0 3rem;
+  }
+  .mainContainer {
+    height: 48rem;
+    margin-bottom: 2.5rem;
+  }
+  .mainContainer h1 {
+    font-size: 5rem;
+  }
+  .mainContainer p {
+    font-size: 2rem;
+  }
+  .aboutUsContainer {
+    height: 36rem;
+  }
+  .aboutUsContainer h1 {
+    line-height: 5rem;
+  }
+  .sectionMedia h2 {
+    font-size: 4.5rem;
+    line-height: 9rem;
+  }
+  .sectionMedia p {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .bodyContainer {
+    padding: 0 1rem 0 1rem;
+  }
+  .mainContainer {
+    margin-bottom: 0rem;
+  }
+  .mainContainer h1 {
+    font-size: 4rem;
+    line-height: 10rem;
+  }
+  .sectionMedia p {
+    font-size: 1.2rem;
+  }
+  .aboutUsContainer {
+    height: 27rem;
+    margin-bottom: 2rem;
+  }
+  .aboutUsContainer h1 {
+    font-size: 5rem;
+    line-height: 0rem;
+  }
+  .textAboutUs {
+    font-size: 1.7rem;
+    padding-bottom: 1rem;
+  }
+  .galeryMain h1 {
+    font-size: 4rem;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Source Serif Pro", serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/*# sourceMappingURL=styles.css.map */

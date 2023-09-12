@@ -167,8 +167,9 @@
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid #ced4da;
-  border-radius: 0.25rem;
+  border-radius: 3.25rem;
 }
+
 
 /* FOOTER */
 #footer {
@@ -202,11 +203,21 @@
   align-items: center;
   height: 100%;
 }
-.followUsContainer h3 {
+.followUsContainer p {
   font-size: 1.8rem;
   font-weight: bold;
   color: #573f01;
-}
+} 
+.followUsContainerbotoncito {
+  border-radius: 0.5rem;
+  margin-top: 22px;
+  padding: 0.5em;
+  background-color: #651e1e52;
+  font-size: medium;
+  border-color: black;
+  border: none;
+} 
+
 
 .socialContainer {
   display: flex;
@@ -293,12 +304,12 @@ footer .socialLink:nth-of-type(2):hover {
     margin: 2rem 3rem;
   }
   .contactForm h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding-top: 0;
     line-height: 3rem;
   }
   .contactForm div p {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   .contactForm label {
     font-size: 1.3rem;
@@ -335,7 +346,7 @@ footer .socialLink:nth-of-type(2):hover {
     margin: 2rem 3rem;
   }
   .contactForm h1 {
-    font-size: 2.3rem;
+    font-size: 1.5rem;
   }
 }
 @media screen and (max-width: 480px) {

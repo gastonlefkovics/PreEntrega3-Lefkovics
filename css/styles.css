@@ -113,7 +113,7 @@
 
 /*GALERY*/
 .galeryContainer {
-  padding: 2rem 8rem 8rem 8rem;
+  padding: 0.5rem 1rem 1rem 1rem;
 }
 
 .galeryMain h1 {
@@ -254,7 +254,7 @@ footer .socialLink:nth-of-type(2):hover {
     margin-bottom: 0.5rem;
   }
   .galeryContainer {
-    padding: 2rem 8rem 5rem 8rem;
+    padding: 1rem 1rem 1rem 1rem;
   }
   .textAboutUs {
     padding-top: 0;
@@ -298,7 +298,7 @@ footer .socialLink:nth-of-type(2):hover {
     padding: 2rem 1rem;
   }
   .galeryContainer {
-    padding: 2rem 5rem 4rem 5rem;
+    padding: 1rem 2rem 2rem 2rem;
   }
   .contactForm {
     margin: 2rem 3rem;
@@ -420,3 +420,113 @@ html {
 }
 
 /*# sourceMappingURL=styles.css.map */
+
+.site-wrapper {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
+.site-header {
+  padding: 3vh 0;
+  text-align: center;
+  background: var(--header-bg);
+}
+
+.site-header > div {
+  display: flex;
+  justify-content: center;
+}
+
+.site-header a {
+  line-height: 1;
+}
+
+.site-main {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.site-main h1 {
+  line-height: 1.2;
+  margin: 0 0 20px;
+}
+
+.site-footer {
+  padding: 15px 0;
+  color: var(--white);
+  background: var(--footer-bg);
+}
+
+.site-footer .logo-wrapper div {
+  font-style: italic;
+  font-size: 15px;
+  line-height: 1;
+}
+
+.site-footer .widgets-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 40px;
+  border-top: 1px solid rgba(255,255,255,0.2);
+  margin-top: 20px;
+}
+
+.site-footer h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 25px 0;
+}
+
+.site-footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.site-footer ul:not(.socials) li + li {
+  margin-top: 10px;
+}
+
+.site-footer a {
+  text-decoration: none;
+  font-size: medium;
+}
+
+.site-footer .socials {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: flex-start;
+  grid-gap: 15px;
+}
+
+.site-footer .socials svg {
+  fill: var(--white);
+}
+
+@media (max-width: 650px) {
+  .site-footer .widgets-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* CREATOR STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.creator {
+  position: fixed;
+  right: 0;
+  bottom: 50px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  font-size: 0.75em;
+  background: var(--white);
+}
+
+.creator a {
+  display: flex;
+  margin-left: 4px;
+}
